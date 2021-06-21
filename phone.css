@@ -1,10 +1,10 @@
-@media screen and (max-width: 375px) {
+  @media screen and (max-width: 375px) {
   html {
-    overflow-x: hidden;
-    width: 378px;
+    /* overflow-x: hidden; */
+    width: 100%;
     height: auto;
   }
-  body {
+  /*body {
     overflow-x: hidden;
     display: flex;
     flex-direction: column;
@@ -95,13 +95,13 @@
     > section:nth-child(1) {
     margin-top: -1424px;
     margin-bottom: 0px;
+  }*/
+
+  .container {
+    margin: 20px;;
   }
 
-  #container {
-    height: auto;
-  }
-
-  .p1 {
+  /*.p1 {
     width: 375px;
     display: flex;
     flex-wrap: wrap;
@@ -119,13 +119,13 @@
   .p1 > nav:nth-child(2) {
     margin-left: 0px;
     width: 375px;
-  }
+  }*/
 
   .p1 > div:nth-child(3) {
     margin-left: 0px;
   }
 
-  .p1 > nav:nth-child(4) {
+  /*.p1 > nav:nth-child(4) {
     margin-top: 40px;
   }
 
@@ -144,6 +144,7 @@
     height: 35px;
   }
 
+
   .h2-aside {
     margin-left: 0px;
     width: 375px;
@@ -156,13 +157,18 @@
 
   nav {
     border-bottom: #f2f2f2 3px solid;
-  }
+  } */
 
   /* MENU NAVIGATION HEADER*/
 
-  .menu {
+   .menu {
     width: 370px;
   }
+
+  .hebergements article {
+  width: 375px;
+  flex-shrink: 0;
+}
 
   .nav-hebergement {
     text-align-last: center;
@@ -173,7 +179,7 @@
     margin-bottom: 21px;
     color: black;
     border-bottom: gray;
-    margin-left: -119px;
+
     line-height: 60px;
     margin-top: -10px;
   }
@@ -185,7 +191,7 @@
 
   .bloc-activites {
     width: 375px;
-
+    align-content: center;
     margin-left: 1px;
     margin-top: -125px;
   }
@@ -209,6 +215,7 @@
     color: black;
     margin-left: 0px;
     margin-top: -10px;
+    margin-right: -30px;
   }
 
   .nav-activite:hover {
@@ -256,7 +263,7 @@
   }
   /*icone loupe*/
 
-  .icone-loupe {
+   .icone-loupe {
     width: 40px;
     align-items: center;
     margin-top: 0px;
@@ -278,12 +285,25 @@
     font-size: 20px;
     border-radius: 0px 15px 15px 0px;
     height: 40px;
-  }
+  }  
 
   /*MENU RAPIDE*/
+
+  #img > ul:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    width: 50%;
+    height: auto;
+    margin-bottom: 0px;
+    margin-top: -13px;
+    padding-left: 0px;
+    margin-left: 86px;
+  }
   /* economique*/
 
-  #img {
+  /* #img {
     width: 370px;
   }
 
@@ -334,7 +354,7 @@
 
   /* famillial*/
 
-  #img > ul:nth-child(1) > li:nth-child(3) {
+  /* #img > ul:nth-child(1) > li:nth-child(3) {
     margin-left: 88px;
     width: 116px;
     margin-top: -61px;
@@ -368,7 +388,7 @@
 
   /*romantique*/
 
-  #img > ul:nth-child(1) > li:nth-child(4) {
+  /* #img > ul:nth-child(1) > li:nth-child(4) {
     margin-top: 10px;
     margin-left: -3px;
     margin-right: 6px;
@@ -386,11 +406,11 @@
     > i:nth-child(1) {
     margin-left: -3px;
     margin-right: -2px;
-  }
+  } */ */
 
   /* animaux*/
 
-  #img > ul:nth-child(1) > li:nth-child(5) {
+  /* #img > ul:nth-child(1) > li:nth-child(5) {
     margin-left: 14px;
     margin-right: 5px;
   }
@@ -400,29 +420,33 @@
     > i:nth-child(1) {
     margin-right: -1px;
     margin-left: -1px;
-  }
+  } */
 
   /*info*/
 
-  .info {
-    margin-top: 160px;
-    margin-left: 10px;
+   .info {
+    margin-top: 0px;
+margin-left: 0px;
+width: 390px;
+height: 55px;
+padding-top: 270px;
   }
 
-  .logo-info {
+  /*.logo-info {
     margin-right: -17px;
     margin-top: 0px;
     margin-bottom: 0px;
     width: 15.283px;
-  }
+  }*/
 
   .info > p:nth-child(2) {
     font-size: 14px;
-    margin-bottom: 0px;
-    width: 384px;
+    margin-left: 4px;
+    height: 35px;
+    width: 350px;
   }
 
-  #section-aside {
+  /*#section-aside {
     border-radius: 0px;
     width: 375px;
     margin-top: -1410px;
@@ -431,9 +455,17 @@
     padding-top: 0px;
     margin-left: 0px;
     margin-right: 0px;
-  }
+  }*/
 
   #section-aside > h2:nth-child(1) {
+ margin-top: 10px;
+ padding-top: 0px;
+ margin-bottom: 30px;
+ margin-left: 10px;
+}
+
+
+  /*#section-aside > h2:nth-child(1) {
     margin-top: 7px;
     margin-bottom: 6px;
     margin-left: 8px;
@@ -443,21 +475,48 @@
 
   #section-aside > h2:nth-child(1) > img:nth-child(1) {
     margin-left: 90px;
-  }
+  }*/
 
   #bloc-article {
-    margin-top: 0px;
-    width: 375px;
-    height: 600px;
-    margin-left: 0px;
+  align-items:center;
+  width: 100%;
     display: flex;
+    flex-direction: column;
+    height:1550px;
+    margin-left: 0;
+  } 
+
+  article{
+    height:1550px;
+    margin: 0;
+    border-radius: 0;
   }
 
-  .bloc-aside {
+  #section-aside{
+    margin-left: 0px;
+    border-radius: 0;
+  }
+
+
+  .div-a:nth-child(1) {
+ padding-left: 43px;
+}
+
+div.div-a:nth-child(2) {
+ padding-left: 43px;
+}
+
+
+div.div-a:nth-child(3) {
+ padding-left: 43px;
+}
+
+
+  /* .bloc-aside {
     margin-top: -22px;
     width: 375px;
     margin-left: 0px;
-  }
+  } */
   /*hover*/
   .auberge-cannebiere:hover {
     transform: scale(1.03);
@@ -512,7 +571,7 @@
   }
   .div-parc-longchamp:hover {
     transform: scale(1.03);
-  }
+  } */
 
   /*auberge panier*/
   .auberge-panier {
@@ -552,7 +611,7 @@
     margin-top: 35px;
   }
 
-  body
+  /* body
     > main:nth-child(2)
     > section:nth-child(1)
     > aside:nth-child(3)
@@ -572,17 +631,25 @@
     > section:nth-child(1)
     > aside:nth-child(3) {
     width: 378px;
+  } */
+
+  div{
+  
   }
 
   /* auberge cannebiere*/
 
   .auberge-cannebiere {
-    width: 350px;
+    width: 100%;
     margin-left: 10px;
     margin-right: 0px;
   }
 
   .cannebiere {
+    margin-left: 0;
+margin-top: 0;
+border-radius: 0;
+
     width: 340px;
     margin-right: 5px;
     height: 120px;
@@ -598,12 +665,12 @@
   }
   .auberge-cannebiere > div:nth-child(4) {
     margin-left: 25px;
-  }
+  } 
 
   /* hotel du port*/
 
-  .hotel-port {
-    width: 350px;
+   .hotel-port {
+    width: 100%;
     margin-left: 10px;
     margin-right: 0px;
   }
@@ -624,12 +691,12 @@
 
   .hotel-port > div:nth-child(4) {
     margin-left: 30px;
-  }
+  } 
 
   /* hotel les mouette*/
 
-  .hotel-mouettes {
-    width: 350px;
+   .hotel-mouettes {
+    width: 100%;
     margin-left: 10px;
     margin-right: 0px;
   }
@@ -643,20 +710,21 @@
   .p-les-mouettes {
     margin-top: 8px;
     margin-left: 30px;
-  }
+  } 
 
-  .p-nuit-mouettes {
+   .p-nuit-mouettes {
     margin-left: 30px;
   }
 
   .hotel-mouettes > div:nth-child(4) {
     margin-left: 30px;
-  }
+  } 
 
   /* hotel la mer*/
 
-  .hotel-mer {
-    width: 350px;
+   .hotel-mer {
+    width: 100%;
+    margin-top: 0;
     margin-left: 10px;
     margin-right: 0px;
   }
@@ -678,12 +746,12 @@
 
   .hotel-mer > div:nth-child(5) {
     margin-left: 30px;
-  }
+  } 
 
   /* auberge le panier*/
 
-  .auberge-panier {
-    width: 350px;
+   .auberge-panier {
+    width: 100%;
     margin-left: 10px;
     margin-right: 0px;
   }
@@ -705,12 +773,13 @@
 
   .auberge-panier > div:nth-child(4) {
     margin-left: 30px;
-  }
+  } 
 
   /* hotel chez amina*/
 
-  .hotel-amina {
-    width: 350px;
+   .hotel-amina {
+     margin-top: 0;
+    width: 100%;
     margin-left: 10px;
     margin-right: 0px;
   }
@@ -732,11 +801,11 @@
 
   .hotel-amina > div:nth-child(4) {
     margin-left: 30px;
-  }
+  } 
 
   /*vieux port*/
 
-  .div-vieux-port {
+   .div-vieux-port {
     box-shadow: 3px 3px 3px 3px gray;
     border-radius: 15px;
     width: 350px;
@@ -760,11 +829,11 @@
     margin-top: 4px;
     margin-left: 15px;
     font-size: 16px;
-  }
+  } 
 
   /* fort de pomegues*/
 
-  .div-fort-de-pomegues {
+ .div-fort-de-pomegues {
     box-shadow: 3px 3px 3px 3px gray;
     border-radius: 15px;
     margin-top: 30px;
@@ -788,11 +857,11 @@
     margin-top: 4px;
     margin-left: 15px;
     font-size: 16px;
-  }
+  } 
 
   /* iles du frioul*/
 
-  .div-iles-du-frioul {
+   .div-iles-du-frioul {
     box-shadow: 3px 3px 3px 3px gray;
     border-radius: 15px;
     margin-top: 30px;
@@ -815,11 +884,11 @@
     margin-top: 4px;
     margin-left: 15px;
     font-size: 16px;
-  }
+  } 
 
   /* parc national des calanques*/
 
-  .div-parc-national-des-calanques {
+    .div-parc-national-des-calanques {
     margin-top: 0px;
     margin-left: 8px;
     margin-bottom: 0px;
@@ -836,14 +905,14 @@
     margin-left: 2px;
     margin-top: 2px;
     height: 140px;
-  }
+  } 
 
-  .p-parc-national-des-calanques {
+   .p-parc-national-des-calanques {
     margin-bottom: 0px;
     margin-top: 4px;
     margin-left: 15px;
     font-size: 16px;
-  }
+  } 
 
   /* BLOC IMAGE*/
 
@@ -857,16 +926,17 @@
   }
 
   .bloc-image-2 {
+    margin-top: 0px;
     margin-left: 0px;
-    margin-top: 30px;
     margin-bottom: 0px;
     margin-right: 0px;
     width: 375px;
+    height: 470px;
   }
   /* notre dame de la garde*/
 
   .div-notre-dame-de-la-garde {
-    margin-top: 0px;
+    margin-top: 30px;
     margin-left: 8px;
     margin-bottom: 0px;
     box-shadow: 3px 3px 3px 3px gray;
@@ -893,7 +963,7 @@
 
   /* parc longchamp*/
 
-  .div-parc-longchamp {
+    .div-parc-longchamp {
     margin-top: 30px;
     margin-left: 8px;
     margin-bottom: 0px;
@@ -927,7 +997,7 @@
     width: 375px;
     margin-right: 0px;
     margin-left: 0px;
-  }
+  } */ */
 
   /*FOOTER*/
 
@@ -951,4 +1021,4 @@
   body > footer:nth-child(3) > div:nth-child(3) {
     margin-left: 15px;
   }
-}
+} 
