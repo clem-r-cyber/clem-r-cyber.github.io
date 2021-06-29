@@ -168,6 +168,9 @@
   .hebergements article {
   width: 375px;
   flex-shrink: 0;
+ margin-left: -20px;
+}
+
 }
 
   .nav-hebergement {
@@ -493,8 +496,9 @@ padding-top: 270px;
   }
 
   #section-aside{
-    margin-left: 0px;
+    margin-left: -20px;
     border-radius: 0;
+    background: none;
   }
 
 
@@ -509,6 +513,10 @@ div.div-a:nth-child(2) {
 
 div.div-a:nth-child(3) {
  padding-left: 43px;
+}
+
+h2{
+  margin-left: 20px;
 }
 
 
@@ -633,9 +641,7 @@ div.div-a:nth-child(3) {
     width: 378px;
   } */
 
-  div{
-  
-  }
+
 
   /* auberge cannebiere*/
 
